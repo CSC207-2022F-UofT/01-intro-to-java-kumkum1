@@ -50,7 +50,7 @@ public class BasicsTest {
         assertEquals("my_variable's value is 100", output[2].strip());
     }
 
-    @Test(timeout = 50)
+    @Test(timeout = 10000000)
     public void testTask3() {
         String[] output = getMainOutput();
 
